@@ -1,0 +1,2 @@
+module ShopatronCheckoutHelper
+end
