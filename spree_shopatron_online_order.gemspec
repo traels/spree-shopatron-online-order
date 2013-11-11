@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_shopatron_online_order'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.summary     = 'Moves users to Shopatron for ordering'
   s.description = 'When going to checkout a normal user will be sent to Shopatron using Online Order Processing API'
   s.required_ruby_version = '>= 1.9.3'
