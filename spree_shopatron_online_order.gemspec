@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = '0.1.3'
   s.summary     = 'Moves users to Shopatron for ordering'
   s.description = 'When going to checkout a normal user will be sent to Shopatron using Online Order Processing API'
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.0.0'
 
   s.author    = 'Simon Træls Ravn'
   s.email     = 'cs2@cs2.dk'
