@@ -19,8 +19,8 @@ require 'database_cleaner'
 require 'ffaker'
 require 'capybara/rspec'
 require 'capybara/mechanize'
-#require 'capybara-screenshot'
-#require 'capybara-screenshot/rspec'
+require 'capybara-screenshot'
+require 'capybara-screenshot/rspec'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -82,6 +82,13 @@ RSpec.configure do |config|
   end
 
   config.fail_fast = ENV['FAIL_FAST'] || false
+end
+
+Capybara.configure do |config|
+  config.match = :one
+  config.exact_options = true
+  config.ignore_hidden_elements = true
+  config.visible_text_only = true
 end
 
 def sign_in_admin!(user)
