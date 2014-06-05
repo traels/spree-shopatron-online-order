@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_shopatron_online_order'
-  s.version     = '0.1.3'
+  s.version     = '2.2.2'
   s.summary     = 'Moves users to Shopatron for ordering'
   s.description = 'When going to checkout a normal user will be sent to Shopatron using Online Order Processing API'
   s.required_ruby_version = '>= 2.0.0'
@@ -24,9 +24,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_girl', '~> 4.2'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails',  '~> 2.13'
   s.add_development_dependency 'sass-rails'
-  s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
 end
